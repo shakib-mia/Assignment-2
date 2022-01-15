@@ -208,6 +208,10 @@ footer h2 {
     border-radius: 50%;
 }
 
+.social-section {
+    padding-top: 20px;
+}
+
 
 /* Media Queries */
 
@@ -241,24 +245,26 @@ footer h2 {
         order: 1;
         margin: 0 auto;
     }
-    nav {
-        transition: 1s;
-    }
     nav ul {
-        display: none;
+        /* display: none; */
         position: absolute;
+        top: -100%;
         background: #fff;
         width: 100%;
     }
     nav ul li {
         display: block;
-        padding: 10px 0;
+        padding: 10px;
     }
     #check:checked~ul {
-        display: block;
+        top: 10%;
+        transition: all 500ms ease-in-out;
     }
     .featured-products {
         text-align: center;
+    }
+    .companies .container img {
+        width: 15%;
     }
 }
 
@@ -298,7 +304,7 @@ footer h2 {
     }
     nav ul li {
         display: block;
-        padding: 0 10px;
+        padding: 10px;
     }
     #check:checked~ul {
         display: block;
@@ -334,7 +340,7 @@ footer h2 {
     }
     nav ul li {
         display: inline-block;
-        padding: 0 10px;
+        padding: 10px;
     }
     .logo {
         order: 0;
