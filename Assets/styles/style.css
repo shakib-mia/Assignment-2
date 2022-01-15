@@ -298,7 +298,7 @@ footer h2 {
     }
     nav ul li {
         display: block;
-        padding: 10px 0;
+        padding: 0 10px;
     }
     #check:checked~ul {
         display: block;
