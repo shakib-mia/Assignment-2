@@ -24,6 +24,17 @@ img {
     align-items: center;
 }
 
+.one-third {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 a.btn {
     background-color: #e12c6d;
     text-decoration: none;
@@ -107,4 +118,30 @@ nav ul li a {
 
 .companies .container img {
     margin: 2rem;
+}
+
+
+/* Popular Collections Section */
+
+.popular-collection h3 {
+    text-align: center;
+}
+
+.card {
+    margin: 1rem 0.8rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #333;
+    padding: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px #333;
+    transition: 400ms ease-in;
+}
+
+.popular-collection a.see-more {
+    color: #e12c6d;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
