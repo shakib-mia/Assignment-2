@@ -57,6 +57,10 @@ header {
     padding: 20px 0;
 }
 
+.logo {
+    font-weight: 800;
+}
+
 
 /* nav {
 order: -1;
@@ -107,6 +111,11 @@ nav ul li a {
 .heading-section img {
     width: 80%;
     margin-left: 10px;
+}
+
+.heading-section img:hover {
+    transform: rotate(60deg);
+    transition: 1s ease;
 }
 
 
@@ -161,6 +170,10 @@ nav ul li a {
     featured product section 
 ================================*/
 
+.featured-products {
+    padding: 4rem 0;
+}
+
 .featured-products img {
     width: 75%;
     border-radius: 7px;
@@ -183,4 +196,17 @@ footer {
     text-align: center;
     color: white;
     background-color: #100027;
+    padding: 3rem 0;
+}
+
+footer h2 {
+    font-weight: bold;
+}
+
+.social {
+    background-color: #26183c;
+    text-decoration: none;
+    color: white;
+    padding: 4px 9px;
+    border-radius: 50%;
 }
