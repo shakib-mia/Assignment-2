@@ -1,4 +1,6 @@
-/* universal styles */
+/*===========================
+    universal styles
+==============================*/
 
 * {
     margin: 0;
@@ -44,7 +46,9 @@ a.btn {
 }
 
 
-/* header styles */
+/*===========================
+        header styles
+===========================*/
 
 header {
     display: flex;
@@ -78,7 +82,9 @@ nav ul li a {
 }
 
 
-/* heading section */
+/*=============================
+        heading section 
+==============================*/
 
 .heading-section-img {
     display: flex;
@@ -90,16 +96,12 @@ nav ul li a {
     font-weight: 700;
 }
 
-.heading-section p {
-    margin-bottom: 10px;
-}
-
 .heading-section a {
     margin-bottom: 1rem;
 }
 
 .heading-section p {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .heading-section img {
@@ -108,7 +110,9 @@ nav ul li a {
 }
 
 
-/* companies section */
+/*=================================
+        companies section 
+==================================*/
 
 .companies .container div {
     display: flex;
@@ -121,7 +125,13 @@ nav ul li a {
 }
 
 
-/* Popular Collections Section */
+/*================================ 
+    Popular Collections Section 
+=================================*/
+
+.popular-collection {
+    padding: 4rem 0;
+}
 
 .popular-collection h3 {
     text-align: center;
@@ -144,4 +154,33 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: end;
+}
+
+
+/*==============================
+    featured product section 
+================================*/
+
+.featured-products img {
+    width: 75%;
+    border-radius: 7px;
+}
+
+.featured-products p {
+    padding: 20px 0;
+}
+
+.featured-products a.btn {
+    border-radius: 0;
+}
+
+
+/*============================
+        Footer section
+============================== */
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #100027;
 }
