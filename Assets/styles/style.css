@@ -184,6 +184,15 @@ nav ul li {
     border-radius: 0;
 }
 
+.card i {
+    color: #fb8200;
+    font-size: 13px;
+}
+
+.card span {
+    font-size: 13px;
+}
+
 
 /*============================
         Footer section
