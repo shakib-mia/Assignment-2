@@ -296,12 +296,26 @@ footer h2 {
     .featured-products img {
         justify-content: center;
     }
+    nav ul li {
+        display: block;
+        padding: 10px 0;
+    }
+    #check:checked~ul {
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+    }
 }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
+    .logo-section,
+    header {
+        align-items: center;
+    }
     .one-third {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
