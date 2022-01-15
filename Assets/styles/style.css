@@ -74,11 +74,6 @@ nav ul {
     list-style-type: none;
 }
 
-nav ul li {
-    display: inline-block;
-    padding: 0 20px;
-}
-
 
 /*=============================
         heading section 
@@ -128,6 +123,11 @@ nav ul li {
 .companies .container img {
     width: 9%;
     margin: 0 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 20px;
 }
 
 
@@ -334,6 +334,7 @@ footer h2 {
     }
     nav ul li {
         display: inline-block;
+        padding: 0 10px;
     }
     .logo {
         order: 0;
